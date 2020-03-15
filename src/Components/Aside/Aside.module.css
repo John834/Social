@@ -1,0 +1,9 @@
+.Aside {
+	grid-area: a;
+	background: #FDFDFD;
+	width: 245px;
+	height: 353px;
+	margin-left: 71px;
+	border-radius: 8px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}

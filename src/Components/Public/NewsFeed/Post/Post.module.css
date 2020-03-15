@@ -1,0 +1,27 @@
+.Post {
+	display: flex;
+	justify-content: center;
+	padding: 24px;
+	background: #FDFDFD;
+	border-radius: 8px;
+	height: 140px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.Post img {
+	border-radius: 100%;
+	width: 60px;
+	height: 64px;
+	margin-right: 20px;
+}
+
+textarea {
+	resize: none;
+	width: 500px;
+	height: 118px;
+	border-radius: 6px;
+	border: 2px solid rgba(0,0,0,0.4);
+	padding: 18px 14px 4px 14px;
+	box-sizing: border-box;
+}
+    
