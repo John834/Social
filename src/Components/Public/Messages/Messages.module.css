@@ -45,6 +45,7 @@ a {
     height: 74px;
     width: 70px;
     border-radius: 100%;
+    border: 2px solid rgba(1,1,1,0.4);      
 }
 
 .UserItem {
