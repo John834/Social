@@ -25,6 +25,9 @@ a {
 .MessagesItem {
 	display: grid;
 	grid-template-columns: 5fr 7fr;
+    grid-template-areas: 'u d'
+    'u m';
+    grid-template-rows: auto 40px;
 }
 
 .MessageTitle::before {
@@ -38,7 +41,8 @@ a {
 }
 
 .Users {
-	border-right: 2px solid #aaa;	
+	border-right: 2px solid #aaa;
+    grid-area: u;	
 }
 
 .Users img {
@@ -66,9 +70,27 @@ a {
 }
 
 .Dialogs {
-	padding-left: 20px;
+	border: 2px solid rgba(0,0,0,0.4);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 0px 0 20px 18px;
+    grid-area: d;
 }
 
 
 
     
+
+
+
+
+.getMessage {
+    height: 20px;
+    width: 20px;
+    grid-area: m;
+    border: 2px solid rgba(0,0,0,0.4);
+    border-radius: 8px;
+    padding: 8px;
+    margin-left: 18px;
+    width: 300px;
+}
