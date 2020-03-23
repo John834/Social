@@ -25,9 +25,11 @@ a {
 .MessagesItem {
 	display: grid;
 	grid-template-columns: 5fr 7fr;
-    grid-template-areas: 'u d'
+    grid-template-areas:
+    'u um' 
+    'u d'
     'u m';
-    grid-template-rows: auto 40px;
+    grid-template-rows: 56px auto 40px;
 }
 
 .MessageTitle::before {
@@ -126,4 +128,50 @@ a {
     padding: 8px;
     width: 318px;
     margin-left: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.UserMess {
+    grid-area: um;
+    display: flex;
+    margin-left: 18px;
+}
+
+
+.UsermMess::after {
+    content: '';
+    height: 1px;
+    width: 200px;
+    background: rgba(0,0,0,0.2);
+}
+
+.UserMess img {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
+
+.UserMess span {
+    padding-left: 14px;
+}
+
+.UserMess i {
+    display: block;
+    color: rgba(0,0,0,0.8);
+    font-size: 12px;
+    font-style: normal;
+}
+
+.UserMess figure {
+    margin: 0;
 }

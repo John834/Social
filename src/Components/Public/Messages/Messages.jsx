@@ -57,7 +57,15 @@ const Messages = () => {
 	        		
 	        	</div>
 
-	        	{/* Message */}
+	        	<div className={m.UserMess}>
+	        		<figure>
+	        			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4aiFpuviHwdXTS7gN5lMb62TarJoSt4LK3qicKrpKbVOgQWMZ' />
+	        		</figure>
+	        		<span>
+						Sarah Shahi
+						<i>Online</i>
+	        		</span>
+	        	</div>
 
 	        	<div className={m.Dialogs}>
 					<UserMessages Message={MessageData[0].Message} />
