@@ -48,7 +48,7 @@ const Messages = () => {
 
     return (
         <div className={m.Messages}>
-        	<h5 className={m.MessageTitle}>All Messages</h5>
+        	<h5 className={m.MessageTitle}>All Messages<sup>&hellip;</sup></h5>
         	<div className={m.MessagesItem}>
 	        	<div className={m.Users}>
 	        
@@ -62,26 +62,35 @@ const Messages = () => {
 	        		
 	        	</div>
 
-	        	<div className={m.UserMess}>
-	        		<figure>
-	        			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4aiFpuviHwdXTS7gN5lMb62TarJoSt4LK3qicKrpKbVOgQWMZ' />
-	        		</figure>
-	        		<span>
-						Sarah Shahi
-						<i>Online</i>
-	        		</span>
-	        	</div>
+				<div className={m.contentDialogs}>
+		        	<div className={m.UserMess}>
+		        		<figure>
+		        			<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT4aiFpuviHwdXTS7gN5lMb62TarJoSt4LK3qicKrpKbVOgQWMZ' />
+		        		</figure>
+		        		<span>
+							Sarah Shahi
+							<i>Online</i>
+		        		</span>
+		        		<div className={m.circle}>
+		        			<div className={m.circleOne}>
+								<div>&mdash;</div>
+								<div>&mdash;</div>
+								<div>&mdash;</div>
+							</div>	
+		        		</div>
+		        	</div>
 
-	        	<div className={m.Dialogs}>
-					<UserMessages Message={MessageData[0].Message} />
-					<UserMessages Message={MessageData[1].Message} />
-	        	</div>
+		        	<div className={m.Dialogs}>
+						<UserMessages Message={MessageData[0].Message} />
+						<UserMessages Message={MessageData[1].Message} />
+		        	</div>
 
-	        	<div className={m.getMessage}>
-	        		<textarea placeholder='Отправьте сообщение'>
+		        	<div className={m.getMessage}>
+		        		<textarea placeholder='Отправьте сообщение'>
 
-	        		</textarea>
-	        	</div>
+		        		</textarea>
+		        	</div>
+		        </div>
 	        </div>
         </div>
     );
