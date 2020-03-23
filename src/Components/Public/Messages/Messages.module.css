@@ -30,6 +30,7 @@ a {
     'u d'
     'u m';
     grid-template-rows: 56px auto 40px;
+    height: 400px;
 }
 
 .MessageTitle::before {
@@ -45,6 +46,7 @@ a {
 .Users {
 	border-right: 2px solid #aaa;
     grid-area: u;	
+    overflow-y: scroll;
 }
 
 .Users img {
