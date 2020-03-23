@@ -13,7 +13,7 @@ const UserAccount = (props) => {
 			<img src={props.img} />
 			<div className={m.Name + ' ' + m.active}>
 				<NavLink to={path}>{props.name}</NavLink>
-			</div>
+			</div>	
 		</div>
 	);
 }

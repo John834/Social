@@ -4,7 +4,7 @@ import a from './Aside.module.css';
 const Aside = () => {
     return (
         <div className={a.Aside}>
-        	Friends
+        	Friendss
         </div>
     );
 }
