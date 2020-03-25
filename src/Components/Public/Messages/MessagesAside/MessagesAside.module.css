@@ -1,0 +1,5 @@
+.MessagesAside {
+	grid-area: ma;
+	width: 245px;
+	margin-left: 71px;
+}
