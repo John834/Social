@@ -1,0 +1,6 @@
+.NewsFeed {
+	display: grid;
+	grid-template-areas: 'p na';
+	grid-template-columns: 8fr 4fr;
+}
+

@@ -54,3 +54,9 @@ ul li a:hover {
     color: #0056b3;
     cursor: pointer;
 }
+
+
+a.activeLink {
+    color: #0056b3;
+    text-shadow: 0 0 0.5px rgba(100, 110, 155, 0.4);
+}

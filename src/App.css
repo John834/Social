@@ -6,7 +6,7 @@
   display: grid;
   grid-template-areas: 'm p a';
   max-width: 1258px;
-  grid-template-columns: 3fr 6fr 3fr;
+  grid-template-columns: 3fr 9fr;
   grid-tamplate-rows: 120px;
   margin: 0 auto;
 }
