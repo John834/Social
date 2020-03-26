@@ -2,7 +2,7 @@
 	grid-area: p;
 	display: flex;
 	justify-content: center;
-	padding: 24px;
+	padding: 24px 24px 48px 24px;
 	background: #FDFDFD;
 	border-radius: 8px;
 	height: 140px;
@@ -20,9 +20,27 @@ textarea {
 	resize: none;
 	width: 500px;
 	height: 118px;
-	border-radius: 6px;
+	border-radius: 6px 6px 0 0;
 	border: 2px solid rgba(0,0,0,0.4);
-	padding: 18px 14px 4px 14px;
+	padding: 18px 14px 18px 14px;
 	box-sizing: border-box;
+	border-bottom: none;
+	outline: none;
 }
+
+textarea::-webkit-scrollbar {
+	width: 10px;
+}
+
+textarea::-webkit-scrollbar-track {
+	background: rgba(255,255,255,0.4);
+	border: 2px solid #adb1b1;
+}
+
+textarea::-webkit-scrollbar-thumb {
+	background: #adb1b1;
+	border: 1px solid rgba(0,0,0,0.2);
+}
+
+
     
