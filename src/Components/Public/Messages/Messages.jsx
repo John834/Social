@@ -4,10 +4,12 @@ import me from './Messages.module.css';
 import Mess from './Mess/Mess.jsx';
 import MessagesAside from './MessagesAside/MessagesAside.jsx';
 
-const Messages = () => {
+
+
+const Messages = ( ) => {
 	return (
 		<div className={me.messages}>
-			<Mess />
+			<Mess userData={UserData} />
 			<MessagesAside />
 		</div>
 	);
