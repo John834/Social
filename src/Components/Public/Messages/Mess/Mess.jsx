@@ -33,21 +33,13 @@ const UserMessages = (props) => {
 
 
 const Mess = (props) => {
-		let MessageData = [
-		{message: 'Hello1'},
-		{message: 'Hello2?'},
-		{message: 'How are you?1'},
-		{message: 'How are you?2'},
-		{message: 'All well1?'},
-		{message: 'How are you?'},
-		{message: 'How are you?'}
-	]
+
 	
 	
 
 	
 	let UsersElements = props.UserData.map(ud => <UserAccount name={ud.name} id={ud.id} img={ud.img} /> );
-	let MessageElements = MessageData.map(md => <UserMessages message={md.message} /> );
+	let MessageElements = props.MessageData.map(md => <UserMessages message={md.message} /> );
 
     return (
         <div className={m.Messages}>

@@ -6,10 +6,10 @@ import MessagesAside from './MessagesAside/MessagesAside.jsx';
 
 
 
-const Messages = ( ) => {
+const Messages = (props) => {
 	return (
 		<div className={me.messages}>
-			<Mess userData={UserData} />
+			<Mess UserData={props.UserData} MessageData={props.MessageData} />
 			<MessagesAside />
 		</div>
 	);
