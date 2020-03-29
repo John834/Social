@@ -12,13 +12,14 @@ import { Route, BrowserRouter } from 'react-router-dom';
 
 
 function App (props) {
+
   return (
     <BrowserRouter>
       <div className="App">
         <Header />
         <div className='Wrapper'>
             <Menu />
-            <Public UserData={props.UserData} MessageData={props.MessageData} />
+            <Public state={props.state.MessagePage} />
         </div>
         <Footer />
       </div>

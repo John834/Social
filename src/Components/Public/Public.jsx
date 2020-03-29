@@ -23,7 +23,7 @@ const Public = (props) => {
 	          <Route path='/Friends' component={Friends} />
 	          <Route path='/Images' component={Images} />
 	          <Route path='/Videos' component={Videos} />
-	          <Route path='/Messages' render={ () => <Messages UserData={props.UserData} MessageData={props.MessageData} />} />
+	          <Route path='/Messages' render={ () => <Messages state={props.state.mud} />} />
 	        </div>
         </div>
     );

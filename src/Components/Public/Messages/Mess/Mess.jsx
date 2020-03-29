@@ -33,13 +33,12 @@ const UserMessages = (props) => {
 
 
 const Mess = (props) => {
+	debugger;	
+	
 
 	
-	
-
-	
-	let UsersElements = props.UserData.map(ud => <UserAccount name={ud.name} id={ud.id} img={ud.img} /> );
-	let MessageElements = props.MessageData.map(md => <UserMessages message={md.message} /> );
+	let UsersElements = props.state.UserData.map(ud => <UserAccount name={ud.name} id={ud.id} img={ud.img} /> );
+	let MessageElements = props.state.MessageData.map(md => <UserMessages message={md.message} /> );
 
     return (
         <div className={m.Messages}>

@@ -7,9 +7,10 @@ import MessagesAside from './MessagesAside/MessagesAside.jsx';
 
 
 const Messages = (props) => {
+	debugger;
 	return (
 		<div className={me.messages}>
-			<Mess UserData={props.UserData} MessageData={props.MessageData} />
+			<Mess state={props.state.mudd} />
 			<MessagesAside />
 		</div>
 	);
