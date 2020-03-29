@@ -1,0 +1,81 @@
+.PostCentral {
+    padding: 24px 24px 48px 24px;
+    background: #FDFDFD;
+    border-radius: 8px;
+    min-height: 140px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.FriendInfo {
+	display: inline-block;
+    width: 100%;
+}
+
+.FriendInfo figure {
+	margin: 0;
+	display: inline-block;
+}
+
+.FriendInfo img {
+	width: 48px;
+	height: 48px;
+	border-radius: 100%;
+}
+
+.frinedName {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 12px;
+}
+
+.frinedName a {
+	display: block;
+	font-weight: 700;
+	font-size: 18px;
+	cursor: pointer;
+	line-height: 24px;
+	color: rgba(0, 123, 255, 0.8);
+	text-shadow: 0 0 2px rgba(0,0,0,0.09);
+}
+
+.frinedName ins {
+	text-decoration: none;
+}
+
+.frinedName span {
+	color: #999;
+    float: left;
+    font-size: 12px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.postMeta {
+	width: 100%;
+	margin-top: 14px;
+}
+
+.postMeta img {
+	border-radius: 0;
+	width: 100%;
+	height: auto;
+}
+
