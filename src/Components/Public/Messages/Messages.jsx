@@ -7,7 +7,6 @@ import MessagesAside from './MessagesAside/MessagesAside.jsx';
 
 
 const Messages = (props) => {
-	debugger;
 	return (
 		<div className={me.messages}>
 			<Mess state={props.state.mudd} />

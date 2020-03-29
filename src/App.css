@@ -9,4 +9,5 @@
   grid-template-columns: 3fr 9fr;
   grid-tamplate-rows: 120px;
   margin: 0 auto;
+  padding-top: 120px;
 }
