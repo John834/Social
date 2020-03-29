@@ -2,6 +2,10 @@ import React from 'react';
 import a from './Att.module.css';
 
 const Att = () => {
+
+
+
+	
     return (
 		<div className={a.attachments}>
 			<ul>
@@ -29,7 +33,7 @@ const Att = () => {
 						<input type='file' />
 					</label>
 				</li>
-				<li><button type="submit">Post</button></li>
+				<li><button onClick={ () => {alert('dsgsdgsdsd')}}>Post</button></li>
 			</ul>
 		</div>
     );
